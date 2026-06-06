@@ -3,7 +3,7 @@
 An intelligent, modular toolkit for job seekers built on local LLMs (Ollama) and PaddleOCR. 
 This Streamlit-based application assists users in generating highly professional cover letters, scoring resumes against Job Descriptions (ATS match), and conducting simulated AI mock interviews—all while keeping data locally processed for complete privacy.
 
-## ✨ Features
+## Features
 
 - **Cover Letter Generator:** Automatically drafts a professional, heavily tailored cover letter based on your resume and a target job description. Includes a built-in text editor to review, copy, and export the final letter directly as a `.txt` file.
 - **ATS Match Score:** Acts as an Applicant Tracking System. It scores your resume against a job description, displays visual progress metrics, and gives actionable advice on missing keywords.
@@ -11,7 +11,7 @@ This Streamlit-based application assists users in generating highly professional
 - **Robust Local OCR:** Upload your resume or job descriptions in PDF, PNG, or JPG formats. It uses PaddleOCR and PyMuPDF to extract and read document content automatically.
 - **Dynamic Model Selection:** Automatically detects available local LLMs from your Ollama instance, allowing you to seamlessly switch between models right from the sidebar.
 
-## 📁 Project Structure
+## Project Structure
 
 The codebase is organized professionally into modular utilities for better readability:
 - `app.py`: The main Streamlit User Interface.
@@ -20,7 +20,7 @@ The codebase is organized professionally into modular utilities for better reada
 - `utils/prompts.py`: Stores all LLM system prompts and instructions.
 - `utils/state.py`: Manages the chat history and JSON database.
 
-## 🚀 How to Execute the Project
+## How to Execute the Project
 
 ### 1. Prerequisites
 - **Python 3.10+** installed on your system.
@@ -54,6 +54,6 @@ streamlit run app.py
 
 The app will instantly launch in your default web browser (usually at `http://localhost:8501`).
 
-## 🔒 Privacy
+## Privacy
 
 Because this application relies on a local Ollama instance rather than external APIs (like OpenAI), all data processing, resumes, and job descriptions remain entirely offline and private on your local hardware.
