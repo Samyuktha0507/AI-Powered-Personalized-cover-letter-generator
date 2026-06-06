@@ -1,4 +1,9 @@
+chat_data.json
 venv310/
 __pycache__/
 *.pyc
+.streamlit/
 .DS_Store
+AI-Powered-Personalized-cover-letter-generator-Team-E/
+push_repo.ps1
+push_repo_log.txt
